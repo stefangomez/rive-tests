@@ -5,6 +5,7 @@ import styles from "../styles/Home.module.css";
 import Rive from "@rive-app/react-canvas";
 
 const Home: NextPage = () => {
+  const riveSrcUrl = `${process.env.NEXT_PUBLIC_BUILD_HOST}/3264-6879-tree-loading-bar.riv`;
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Rive Test</h1>
 
         <div style={{ height: 700, width: "100%" }}>
-          <Rive src="http://localhost:3000/3264-6879-tree-loading-bar.riv" />
+          <Rive src={riveSrcUrl} />
         </div>
       </main>
 

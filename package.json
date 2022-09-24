@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build-static-site": "next build && next export",
+    "build-static-site": "NEXT_PUBLIC_BUILD_HOST=$URL next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
