@@ -154,6 +154,18 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@rive-app/canvas@1.0.85":
+  version "1.0.85"
+  resolved "https://registry.yarnpkg.com/@rive-app/canvas/-/canvas-1.0.85.tgz#484bbdb2a72faaf740c0f30d8cb669e8f68e4ced"
+  integrity sha512-nmtgpvyG1mvQO+eQXemkzqJ7t+J8k7dvA2zulhUBezfWX1W8eQMGMhjNaKwmDaCYsOJvDrHzPShCxGpY4cHTEg==
+
+"@rive-app/react-canvas@^3.0.26":
+  version "3.0.26"
+  resolved "https://registry.yarnpkg.com/@rive-app/react-canvas/-/react-canvas-3.0.26.tgz#dcfbb109b371e6787cfe5a68abb50bdba56b415e"
+  integrity sha512-tq6Nk0BKZEdtxdALEePPAZqNzzUsXx3fHsqzqm5Mb5qWS6WckL2977d2UhPrVSu0h8D28YxS/eqJJKh9W8Diug==
+  dependencies:
+    "@rive-app/canvas" "1.0.85"
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
