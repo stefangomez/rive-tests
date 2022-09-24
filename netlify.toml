@@ -5,6 +5,9 @@
   # Default build command.
   command = "yarn build-static-site"
 
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
 # [[plugins]]
   # None
 
