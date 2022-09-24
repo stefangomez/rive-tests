@@ -2,11 +2,10 @@
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
   publish = "out/"
-
   # Default build command.
   command = "yarn build-static-site"
 
-[[plugins]]
+# [[plugins]]
   # None
 
 # The following redirect is intended for use with most SPAs
@@ -16,10 +15,10 @@
   to = "/index.html"
   status = 200
 
-[[headers]]
+# [[headers]]
   # Define which paths this specific [[headers]] block will cover.
 
-[functions]
+# [functions]
   # Directory with serverless functions, including background
   # functions, to deploy. This is relative to the base directory
   # if one has been set, or the root directory if
