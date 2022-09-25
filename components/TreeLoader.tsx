@@ -22,12 +22,7 @@ export default function TreeLoader({ progress }: any) {
 
   useEffect(() => {
     if (progressInput && progressInput.value !== progress) {
-      if (progress >= 100) {
-        // Hack because original Rive state machine has a bug when progress value === 100
-        progressInput.value = 101;
-      } else {
-        progressInput.value = progress;
-      }
+      progressInput.value = progress;
     }
   }, [progress, progressInput]);
 
