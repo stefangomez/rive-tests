@@ -2,7 +2,7 @@ import { useRive, useStateMachineInput } from "@rive-app/react-canvas";
 import { useEffect } from "react";
 
 export default function TreeLoader({ progress }: any) {
-  const riveSrcUrl = `${process.env.NEXT_PUBLIC_BUILD_HOST}/tree_loading_bar.riv`;
+  const riveSrcUrl = `https://darling-eclair-a61c34.netlify.app/tree_loading_bar.riv`;
   const { rive, RiveComponent } = useRive(
     {
       src: riveSrcUrl,
